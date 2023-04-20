@@ -9,7 +9,25 @@
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
 </head>
 <body>
-    
+    <div id="container">
+        <form id="miFormulario">
+
+            <label>*Nombre:</label> <br />
+            <input type="text" id="itNombre" class="campo" /><br />
+            <div id="mensaje1" class="errores">Dame tu nombre</div>
+
+            <label>*Correo Electronico:</label> <br />
+            <input type="text" id="itMail" class="campo" /><br />
+            <div id="mensaje2" class="errores">Dame un mail corerecto</div>
+
+            <label>*Asunto:</label> <br />
+            <input type="text" id="itAsunto" class="campo" /><br />
+            <div id="mensaje3" class="errores">Dame el motivo</div>
+
+            <input type="submit" id="bEnviar" value="Enviar datos" class="boton">
+
+        </form>
+    </div>
 
 
 
